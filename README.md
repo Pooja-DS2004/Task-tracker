@@ -2,6 +2,10 @@
 
 A full-stack Task Tracker built with MongoDB, Express.js, React, and Node.js.
 
+# Description
+
+A full-stack Task Tracker web application built with the MERN stack as part of a full-stack development assignment. Supports creating, viewing, updating, and deleting tasks with real-time UI updates, form validation on both frontend and backend, filtering by status and priority, sorting, keyword search, and overdue detection.
+
 ## Features
 - ✅ Full CRUD (Create, Read, Update, Delete)
 - ✅ Form validation (frontend + backend)
@@ -48,8 +52,6 @@ cd frontend
 npm run dev   # runs on http://localhost:5173
 ```
 
----
-
 ## Deploy
 
 ### Backend → Render.com (Free)
@@ -71,8 +73,6 @@ npm run dev   # runs on http://localhost:5173
    - `VITE_API_URL` = `https://your-render-backend-url.onrender.com/api`
 4. Deploy!
 
----
-
 ## MongoDB Atlas Setup
 
 1. https://cloud.mongodb.com → Free M0 cluster
@@ -80,8 +80,6 @@ npm run dev   # runs on http://localhost:5173
 3. Network Access → Allow `0.0.0.0/0`
 4. Connect → Drivers → Copy connection string
 5. Replace `<password>` and use as `MONGO_URI`
-
----
 
 ## API Endpoints
 
@@ -99,3 +97,4 @@ npm run dev   # runs on http://localhost:5173
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB with Mongoose
 - **Deploy**: Vercel (frontend) + Render (backend)
+<img width="1763" height="844" alt="image" src="https://github.com/user-attachments/assets/ea836481-d2d5-4c15-a08d-a1b99996dbff" />
